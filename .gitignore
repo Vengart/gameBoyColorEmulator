@@ -1,0 +1,20 @@
+# Сборка
+out/
+build/
+dist/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+CMakeSettings.json
+
+# Файлы, которые создаёт сам эмулятор
+gbcemu.ini
+screenshots/
+*.sav
+*.bmp
+
+# ROM-файлы игр не публикуем
+*.gb
+*.gbc
